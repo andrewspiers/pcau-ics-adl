@@ -1,0 +1,1581 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//pretalx//pretalx.com//
+BEGIN:VTIMEZONE
+TZID:Australia/Adelaide
+BEGIN:STANDARD
+DTSTART:20000326T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3;UNTIL=20050326T163000Z
+TZNAME:ACST
+TZOFFSETFROM:+1000
+TZOFFSETTO:+0900
+END:STANDARD
+BEGIN:STANDARD
+DTSTART:20060402T030000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=4;UNTIL=20060401T163000Z
+TZNAME:ACST
+TZOFFSETFROM:+1000
+TZOFFSETTO:+0900
+END:STANDARD
+BEGIN:STANDARD
+DTSTART:20070325T030000
+RRULE:FREQ=YEARLY;BYDAY=4SU;BYMONTH=3;UNTIL=20070324T163000Z
+TZNAME:ACST
+TZOFFSETFROM:+1000
+TZOFFSETTO:+0900
+END:STANDARD
+BEGIN:STANDARD
+DTSTART:20080406T030000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=4
+TZNAME:ACST
+TZOFFSETFROM:+1000
+TZOFFSETTO:+0900
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20001029T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10;UNTIL=20071027T163000Z
+TZNAME:ACDT
+TZOFFSETFROM:+0900
+TZOFFSETTO:+1000
+END:DAYLIGHT
+BEGIN:DAYLIGHT
+DTSTART:20081005T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=10
+TZNAME:ACDT
+TZOFFSETFROM:+0900
+TZOFFSETTO:+1000
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-EJWEMK@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T090000
+DTEND;TZID=Australia/Adelaide:20230818T092000
+DESCRIPTION:This year\, all four special tracks will share a combined openi
+ ng address!
+DTSTAMP:20230817T234004Z
+LOCATION:Hall C (Plenary)
+SUMMARY:Specialist Tracks Combined Opening Address - Pedro Junqueira\, Jack
+  Skinner\, Nicky Ringland\, Katie McLaughlin\, Lilly Ryan
+URL:https://pretalx.com/pyconau-2023/talk/EJWEMK/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-ZDDVWK@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T092000
+DTEND;TZID=Australia/Adelaide:20230818T095000
+DESCRIPTION:Your team has gathered to fight bias\, your tool\, AI. How do y
+ ou muster your forces and all of the abilities at your disposal to fight a
+ nd slay your fearsome foe? Using all of the lawful and chaotic good tools 
+ available\, how do you create a balanced party and slay the Beasts of Bias
+ \; racism\, sexism and queerphobia? Can it be done? Venture together with 
+ me into the seedier side of AI as we band together to fight algorithmic in
+ justice and create a better world.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall C (Plenary)
+SUMMARY:Roll for Initiative: how to make the world of AI a more ethical pla
+ ce - J. Rosenbaum
+URL:https://pretalx.com/pyconau-2023/talk/ZDDVWK/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-ZNMZYW@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T100000
+DTEND;TZID=Australia/Adelaide:20230818T103000
+DESCRIPTION:This talk is an introductory dive into the world of spatial dat
+ a in data science. We will discuss how we use python to massage and proces
+ s objects and buildings' shapes and locations\, in order to solve problems
+  such as determining accessibility to buildings and roads\, bulk processin
+ g of spatial geometries at scale\, or asset maintenance optimization. Whet
+ her you are a seasoned GIS professional or new to spatial data\, this talk
+  offers insights\, potential speed-ups\, and new project ideas. Come along
+ \, even if you think spatial data is not your thing – it is an interesti
+ ng corner of data science you will want to know about!
+DTSTAMP:20230817T234004Z
+LOCATION:Hall C (Plenary)
+SUMMARY:Unpacking the geospatial engineering toolbox – an overview of dat
+ a science techniques for spatial data - Long Dang\, Christine Seeliger
+URL:https://pretalx.com/pyconau-2023/talk/ZNMZYW/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-TX9KTX@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T100000
+DTEND;TZID=Australia/Adelaide:20230818T103000
+DESCRIPTION:This talk is a story of how open-source frameworks make it poss
+ ible for academics to take on otherwise infeasibly complex projects\, whic
+ h in my case was a new community-driven database for biologists and clinic
+ al geneticists.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall E
+SUMMARY:Building a biological database with Python - Alan Rubin
+URL:https://pretalx.com/pyconau-2023/talk/TX9KTX/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-VUZFD9@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T100000
+DTEND;TZID=Australia/Adelaide:20230818T103000
+DESCRIPTION:Increasing awareness of personal data stored on centralised ser
+ vers and individual need to access personal data in a connected world is d
+ riving the development of frameworks to support data sovereignty and priva
+ cy. The Australian National University’s Software Innovation Institute i
+ s collaborating with Gurriny Yealamucka Health Service (Gurriny) in the Ya
+ rrabah Indigenous community of North Queensland\, Australia\, to build pri
+ vacy focused data infrastructure and associated software applications call
+ ed the Solid Health System which will provide individuals with storage\, o
+ wnership\, and control over their own health data.  This model is using So
+ cial Linked Data (Solid) technology\, a decentralised data storage specifi
+ cation for software application development\, using open standards mostly 
+ developed by the World Wide Web Consortium (W3C). Open source Solid server
+  provides users with a secure online storage space called a personal onlin
+ e datastore (POD) to store their own data with granular control of data sh
+ aring using data access control policies to provision a trust-no-one envir
+ onment. Cross-platform software applications are being developed with the 
+ Dart and Flutter framework to interact with PODS on a data pipeline built 
+ with Python.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall A
+SUMMARY:Building health software on decentralised health data using Persona
+ l Online Datastores - Jess Moore\, Anushka Vidanage
+URL:https://pretalx.com/pyconau-2023/talk/VUZFD9/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-7UHYUN@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T100000
+DTEND;TZID=Australia/Adelaide:20230818T103000
+DESCRIPTION:When working with students\, the goal is to teach them how to t
+ hink about systems\, logic\, and problem solving\, not just rote memorisat
+ ion\, or copying boilerplate code from an example.\n\nThis talk is about h
+ ow writing wrappers around the cruft can help you present your students wi
+ th an approachable interface to make learning to program easy\, fun\, and 
+ effective.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall B
+SUMMARY:Wrapping up the Cruft - Making Wrappers to Hide Complexity - Jack R
+ eichelt
+URL:https://pretalx.com/pyconau-2023/talk/7UHYUN/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-KTNAWJ@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T110000
+DTEND;TZID=Australia/Adelaide:20230818T113000
+DESCRIPTION:We use it in every view\, every request\, but how much is HttpR
+ equest doing for you that you never thought about?
+DTSTAMP:20230817T234004Z
+LOCATION:Hall E
+SUMMARY:HttpRequest: An unsung hero of Django - Curtis Maloney
+URL:https://pretalx.com/pyconau-2023/talk/KTNAWJ/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-HYKYKF@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T110000
+DTEND;TZID=Australia/Adelaide:20230818T113000
+DESCRIPTION:Open source researchers are increasingly challenged while navig
+ ating the data which open source communities inherently create when workin
+ g in the open. While mining software repositories for insights into open s
+ ource practices isn't new\, moving beyond code analysis into ecosystems-le
+ vel research does not have a clear path. This talk will outline the curren
+ t ethical\, legal\, and policy challenges community leaders\, as well as r
+ esearchers in academia and industry face and the ambiguous areas decision 
+ makers should be aware of.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall A
+SUMMARY:Thar Be Dragons - Ethical\, Legal\, and Policy Challenges when Meas
+ uring Open Source - amanda casari
+URL:https://pretalx.com/pyconau-2023/talk/HYKYKF/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-BX9VRB@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T110000
+DTEND;TZID=Australia/Adelaide:20230818T113000
+DESCRIPTION:Kids want to code games and I need them to learn the fundamenta
+ l data structures and how to make a user interface. Pygame Zero seems like
+  a gift - the UI power of pygame with a simpler format and an implied main
+  loop. In truth there have been ups and downs in the journey implementing 
+ Pygame Zero into the Middle and Senior school classroom and I want to show
+  you some of the promise and the pitfalls.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall B
+SUMMARY:Zero or Hero? - Assessing Pygame Zero in the classroom - Amanda J H
+ ogan
+URL:https://pretalx.com/pyconau-2023/talk/BX9VRB/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-HQ8MWD@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T110000
+DTEND;TZID=Australia/Adelaide:20230818T113000
+DESCRIPTION:From Python 0.9's public release in 1991 it has grown to be one
+  of the most\nwidely used programming languages\, including prominence in 
+ many domains from\nweb apps to machine learning. While there is never goin
+ g to be any single\nexplanation of why or how Python reached this point\, 
+ Python's past can help\ninform our collective future. In this talk I will 
+ introduce a novel Python\ntool for interactive text analytics to tell a re
+ cent history of Python\, as\nseen through the Python questions and answers
+  on Stack Overflow.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall C (Plenary)
+SUMMARY:A Recent History of Python Through Stack Overflow Questions and Ans
+ wers - Sam Hames
+URL:https://pretalx.com/pyconau-2023/talk/HQ8MWD/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-EPVD87@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T114000
+DTEND;TZID=Australia/Adelaide:20230818T121000
+DESCRIPTION:Collaborative learning in the classroom has been shown to have 
+ a broad range of positive academic effects such as promotion of critical t
+ hinking\, communication skills and improved learning outcomes. It also bri
+ ngs social and psychological benefits such as development of friendships\,
+  social support\, reduced anxiety and increased appreciation for the cours
+ e content.\n\nUnlike a traditional classroom\, programming education tends
+  to offer few opportunities for group activities as students tend to be re
+ stricted to their personal laptops  or to allocated workstations and are e
+ xpected to learn in relative isolation. This is often due to environmental
+  factors\, such as it being hard to share a keyboard between more than two
+  students at a time. Additionally\, educators often design solo activities
+ \, because they are easy to implement and execute in the classroom. Since 
+ programming students aren’t trained to code with other people\, they do 
+ not develop clear ideas on what good collaborations look like or how to co
+ llaborate with others successfully\, which is an important skill in the wo
+ rkforce.\n\nPair programming is an oft cited solution\, yet sharing workst
+ ations can be unsatisfying as one student is left in the backseat while th
+ e other drives. The situation is worsened for larger group sizes. Furtherm
+ ore\, there is no ability for a group of students to divide and conquer a 
+ problem as their attention and input must be the same as the driver.\n\nTh
+ is talk will introduce approaches to collaborative programming that extend
+  beyond pair programming by allowing more than two students to collaborate
+  in real-time on projects ranging from single Python scripts\, to multi-fi
+ le projects and Jupyter Notebooks. This has been accomplished across pairs
+ \, small groups\, and even entire classrooms during both live classroom en
+ vironments and for long-term group projects. We will also discuss the less
+ ons we learnt along the way\, as well as feedback from other educators and
+  students.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall B
+SUMMARY:Collaborative Programming in the Classroom: Approaches and Insights
+  - Stephen Tierney\, Alison Wong
+URL:https://pretalx.com/pyconau-2023/talk/EPVD87/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-K73VVW@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T114000
+DTEND;TZID=Australia/Adelaide:20230818T121000
+DESCRIPTION:A survey of packages in the Python ecosystem for real-time 3D r
+ endering and data visualisation
+DTSTAMP:20230817T234004Z
+LOCATION:Hall C (Plenary)
+SUMMARY:The Python 3D Visualisation Landscape - Owen Lamont
+URL:https://pretalx.com/pyconau-2023/talk/K73VVW/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-8HUA8Y@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T114000
+DTEND;TZID=Australia/Adelaide:20230818T121000
+DESCRIPTION:Python has an incredible library of open source packages you ca
+ n use in your own project\, but how do you pick the right one? What can ha
+ ppen if you pick the *wrong* one? In this talk\, we'll discuss the process
+  of choosing the right dependencies - from architecture to security to lic
+ ensing. By the end you'll have a good understanding of what to look for in
+  a package and what to avoid.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall E
+SUMMARY:Choosing Wisely - How to Pick the Right Third Party Packages for yo
+ ur Project - Evan Brumley
+URL:https://pretalx.com/pyconau-2023/talk/8HUA8Y/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-WY9MES@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T114000
+DTEND;TZID=Australia/Adelaide:20230818T121000
+DESCRIPTION:The Australian half of the Square Kilometre Array radio telesco
+ pe will collect 7.2 Terabits/second of raw data from 131\,072 antennae gro
+ uped into 512 'stations' with 256 antennae each - but every antenna needs 
+ to be connected to a box within a few metres of that antenna\, for a DC po
+ wer supply\, and to convert the electrical output to light over optical fi
+ bre before it degrades. This talk will describe those boxes\, and how they
+  are being monitored and controlled using Python\, a 40+ year old communic
+ ations protocol\, and a network of 19\,200 bits/second serial links.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall A
+SUMMARY:Using Python and 19\,200 bits/second serial links to manage antenna
+ e for the Square Kilometre Array radio telescope in Australia - Andrew Wil
+ liams
+URL:https://pretalx.com/pyconau-2023/talk/WY9MES/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-PBBBMQ@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T122000
+DTEND;TZID=Australia/Adelaide:20230818T125000
+DESCRIPTION:Let's discuss testing of `FastAPI` asynchronous applications. T
+ he talk will cover different types of testing mechanisms i.e. unit testing
+  and end-to-end testing using `pytest`. I will also present some interesti
+ ng test scenarios from `kernelCI-API` which is a new backend being develop
+ ed for `KernelCI` - a distributed testing system for Linux kernel.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall A
+SUMMARY:Testing asynchronous applications with FastAPI and pytest - Jeny Sa
+ dadia
+URL:https://pretalx.com/pyconau-2023/talk/PBBBMQ/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-HGPVAV@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T122000
+DTEND;TZID=Australia/Adelaide:20230818T125000
+DESCRIPTION:This talk will demonstrate how to build interactive maps with P
+ ython\, using slippy map tiles\, Flask\, and Pillow. We will create a Flas
+ k server to retrieve tiles and show how to manipulate them with Pillow\, a
+ dding filters and overlays to map images in real-time without needing to r
+ egenerate the tiles. Attendees will gain insights into building more engag
+ ing and dynamic maps\, leveraging the power of these powerful Python libra
+ ries.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall C (Plenary)
+SUMMARY:Real-time Map Imagery Manipulation with Python\, Slippy Maps\, Flas
+ k\, and Pillow: Building Interactive Maps with Dynamic Tiles - Oliver Holm
+ es
+URL:https://pretalx.com/pyconau-2023/talk/HGPVAV/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-NFGPQW@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T122000
+DTEND;TZID=Australia/Adelaide:20230818T125000
+DESCRIPTION:Using Git and GitHub for version control are industry essential
+ s for any aspiring developer and open-source contributor\, but do students
+  even need to learn this “tricky” process? But\, GitHub has more to of
+ fer teachers and students than just version control (although the peace of
+  mind of knowing that those major works are safe and secure on the cloud i
+ s a big bonus!). \n\nI’ll tell you why using Git is just like an Instagr
+ am-worthy shopping trip\, and with this analogy and some tools using GitHu
+ b will soon be child's play. I’ll also show you the tools for teachers t
+ o help keep your students on track\, from project templates to documentati
+ on\, and automated testing with GitHub Actions and some quick Python scrip
+ ts.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall B
+SUMMARY:Git yourself a leg up for student projects - Renee Noble
+URL:https://pretalx.com/pyconau-2023/talk/NFGPQW/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-BDMZVQ@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T135000
+DTEND;TZID=Australia/Adelaide:20230818T142000
+DESCRIPTION:Do you want to introduce web development to your students but a
+ ren't sure where to start? Flask is a quick and easy way to make web appli
+ cations in Python. Attendees will come away with a Flask template and tuto
+ rial to use with students.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall B
+SUMMARY:Web Development with Flask - Thea Koutsoukis
+URL:https://pretalx.com/pyconau-2023/talk/BDMZVQ/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-8EHZDF@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T135000
+DTEND;TZID=Australia/Adelaide:20230818T142000
+DESCRIPTION:Most Django sites contain information that effectively needs to
+  be isolated from other users or groups. How can we use Django+Postgres to
+  defend against developer mistakes to ensure private data doesn't leak to 
+ the wrong users?
+DTSTAMP:20230817T234004Z
+LOCATION:Hall E
+SUMMARY:Multi-tenancy strategies with Django+PostgreSQL - Levi Cameron
+URL:https://pretalx.com/pyconau-2023/talk/8EHZDF/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-8HVPAG@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T135000
+DTEND;TZID=Australia/Adelaide:20230818T142000
+DESCRIPTION:What is PySpark? Can it solve all of my data problems? Are you 
+ sure I can’t just use pandas instead?\n\nThis talk will aim to answer at
+  least some of the questions you may have if you’re starting out with or
+  looking to scale up your use of PySpark when working with data. This will
+  be a mix of useful intro hints mixed with more technical backing\, includ
+ ing a peek into what goes on behind the API and some common issues I’ve 
+ run into so that you can hopefully spend slightly less time getting frustr
+ ated by them.\n\nSo whether you’re prepping for your next data engineeri
+ ng interview or are just curious about what might be going on in one small
+  corner of the world of data\, you’ll hopefully leave this talk feeling 
+ a bit more confident taking your next steps with big data.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall C (Plenary)
+SUMMARY:An Introduction to PySpark - Alex Ware
+URL:https://pretalx.com/pyconau-2023/talk/8HVPAG/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-ZVEXJW@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T135000
+DTEND;TZID=Australia/Adelaide:20230818T142000
+DESCRIPTION:APIs and events are complementary to each other and are deeply 
+ connected in the architecture of your domain. Understanding this insight w
+ ill help you design better systems.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall A
+SUMMARY:The Hidden Unity of APIs and Event Streams - Saul Caganoff
+URL:https://pretalx.com/pyconau-2023/talk/ZVEXJW/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-JESERF@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T143000
+DTEND;TZID=Australia/Adelaide:20230818T150000
+DESCRIPTION:Learn how one can write efficient APIs in Python with high-qual
+ ity API specifications using Open API and RAML specs to create API contrac
+ ts and achieve a better experience using the API with more reliable unit t
+ ests and increased response consistency\, thereby master the art of buildi
+ ng robust and scalable APIs.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall A
+SUMMARY:Building Elegant API Contracts: From Zero to Hero - Neeraj Pandey
+URL:https://pretalx.com/pyconau-2023/talk/JESERF/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-BKWKEV@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T143000
+DTEND;TZID=Australia/Adelaide:20230818T150000
+DESCRIPTION:Garbage in\, garbage out. We all know that\, but it's hard to k
+ now what to do about it. Documenting everything is well-intentioned\, but 
+ it's often too detailed or too tedious to be effective. So what's the solu
+ tion?\n\nCode.\n\nUsing code to spell out the expectations between data pr
+ oducers and data teams can help to ensure that everyone is on the same pag
+ e and that the data is of the highest quality. This approach is ambitious\
+ , but it has the potential to change the way we collaborate and instil con
+ fidence in our data.\n\nI'll share my experiences with this approach\, inc
+ luding the challenges and the wins. I hope you'll join me in exploring thi
+ s new way of working with data.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall C (Plenary)
+SUMMARY:Data Contracts: Consensus as Code - Ryan Collingwood
+URL:https://pretalx.com/pyconau-2023/talk/BKWKEV/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-WGPY79@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T143000
+DTEND;TZID=Australia/Adelaide:20230818T150000
+DESCRIPTION:“The website is slow”. These four words can strike fear and
+  dread in the heart of any developer. Load Testing is a tool for preparing
+  your website for high demand\, but designing a good load test is a fine-a
+ rt. In this talk\, we’ll explore how design effective load tests for web
+  apps in Python
+DTSTAMP:20230817T234004Z
+LOCATION:Hall E
+SUMMARY:Beat the rush! Designing effective load tests for your web applicat
+ ion - Anthony Shaw
+URL:https://pretalx.com/pyconau-2023/talk/WGPY79/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-BQDYAD@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T143000
+DTEND;TZID=Australia/Adelaide:20230818T150000
+DESCRIPTION:Programming education increasingly centres around tools that of
+ fer automatic marking of student progress through a set of exercises. Auto
+ mated marking has become increasingly popular as it allows instructors to 
+ provide personalised feedback to students in real-time and is easily scala
+ ble to large cohorts. It can also be used to provide instructors with deta
+ iled insight into the class progression.\n\nWhile this brings many new adv
+ antages it also creates new problems. Chief amongst those is the difficult
+ y of marking long\, dynamic and interactive programs which places a large 
+ burden on educators to develop sophisticated marking systems.\n\nAt the mo
+ re extreme end of the problem\, we may be faced with students who want to 
+ take shortcuts such as hard-coding\, or using Python’s built-in function
+ ality and third party packages\, which may violate the spirit of the exerc
+ ise. As a result these students may not be achieving learning outcomes.\n\
+ nIn this talk we will discuss and demonstrate practical approaches to the 
+ aforementioned problems that all educators can use to simplify marking and
+  to increase their assurance of learning. We will also discuss current lim
+ itations that we face and provide recommendations to those wishing to appl
+ y these approaches.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall B
+SUMMARY:Assurance of Learning Through Testing - Stephen Tierney\, Alison Wo
+ ng
+URL:https://pretalx.com/pyconau-2023/talk/BQDYAD/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-RKQDK9@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T153000
+DTEND;TZID=Australia/Adelaide:20230818T160000
+DESCRIPTION:Being able to capture\, manipulate and present video and audio 
+ has become\nmuch more common and useful over the last few years.  For exam
+ ple\, the use\nof the WebRTC standard for teleconferencing and also applyi
+ ng Machine Learning\nfor perceiving situations in the physical world\, oft
+ en using RTSP (network)\ncameras.\n\nThis presentation will aim to bring y
+ ou up-to-speed quickly with using Python\nprogrammatically to build GStrea
+ mer pipelines for use with both RTSP and\nWebRTC applications.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall A
+SUMMARY:Using Python to stream media using GStreamer for WebRTC and RTSP ap
+ plications - Andy Gelme
+URL:https://pretalx.com/pyconau-2023/talk/RKQDK9/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-RY9ZCY@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T153000
+DTEND;TZID=Australia/Adelaide:20230818T160000
+DESCRIPTION:This talk will demonstrate an example of building trusted data 
+ pipelines with 3D packages: Dagster\, Dbt\, and Duckdb. First\, it present
+ s the importance of trusted data pipelines by testing data quality. It the
+ n discusses what we need to test data quality\, from high levels (like tab
+ les\, relations\, …) to low levels (like rows and columns). After that\,
+  I will show how to implement these tests using different Dbt packages lik
+ e dbt-utils and dbt-expectations.\n\nFinally\, a demo with a complete ELT 
+ workflow will be presented. In this demo\, Dagster is used as a data pipel
+ ine orchestrator\, and Dbt is utilized for data transformation with its re
+ lated testing packages. These transformed pipelines sit on top of Duckdb\,
+  which acts as a small data warehouse. This demo is published in a GitHub 
+ repository\, allowing developers to clone and run the demo independently. 
+ \n\nThe talk will help data and analytics engineers build more robust test
+ s for their data pipelines. These trusted data pipelines could enhance the
+  data quality and validation process\, reducing the risk of other data iss
+ ues like data drift for downstream channels.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall C (Plenary)
+SUMMARY:Building 3D Trusted Data Pipelines With Dagster\, Dbt\, and Duckdb 
+ - Danh Phan
+URL:https://pretalx.com/pyconau-2023/talk/RY9ZCY/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-T9SR8J@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T153000
+DTEND;TZID=Australia/Adelaide:20230818T172000
+DESCRIPTION:Join us for some fantastic short talks from high school student
+ s!
+DTSTAMP:20230817T234004Z
+LOCATION:Hall B
+SUMMARY:Student Showcase - Nicky Ringland\, Amanda J Hogan\, Arjen Lentz
+URL:https://pretalx.com/pyconau-2023/talk/T9SR8J/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-WMBADG@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T153000
+DTEND;TZID=Australia/Adelaide:20230818T160000
+DESCRIPTION:Django 4.2 introduces a new way of streaming http responses wit
+ h an ASGI server. Let's use this with HTMX to build a traditional web appl
+ ication that provides SPA-like real time notifications!
+DTSTAMP:20230817T234004Z
+LOCATION:Hall E
+SUMMARY:Using Django 4.2's StreamingHttpResponse and HTMX SSE to provide re
+ al time notifications - Dan Sloan
+URL:https://pretalx.com/pyconau-2023/talk/WMBADG/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-MHKHKK@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T161000
+DTEND;TZID=Australia/Adelaide:20230818T164000
+DESCRIPTION:You know it as the fuel gauge in your car\, the blinking lights
+  on your modem or the operational status page of your favourite cloud serv
+ ice. It's diagnostics! A data efficient technique for seeing how well your
+  system is running in real time.\n\nWhat isn't so well known is that diagn
+ ostics can be embedded directly into your python application. Doing it thi
+ s way provides a purely on-demand and human-readable interface of real-tim
+ e system state and performance.\n\nCompared to a sequence of log messages\
+ , diagnostics are certainly more difficult to implement. After all\, loggi
+ ng is essentially just some well-placed print statements\, outputted to a 
+ file or third-party logging agent. \n\nBut this type of logging can be exp
+ ensive\, bandwidth intensive and hard to make sense of. Have you ever had 
+ to trawl through pages and pages of logs just to check your application is
+  working well? \n\nIn this talk\, you will learn a number of practical and
+  pythonic techniques for serving custom diagnostics from within your appli
+ cation.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall A
+SUMMARY:Diagnostics - Seeing Inside Your Application Without Logging - Jere
+ my Rotstein
+URL:https://pretalx.com/pyconau-2023/talk/MHKHKK/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-BKHZML@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T161000
+DTEND;TZID=Australia/Adelaide:20230818T164000
+DESCRIPTION:A case study of a single-application ETL system to scrape and e
+ nrich complex nested data and then expose it via GraphQL and Discord. It w
+ ill dive into how to use these various async-based libraries together in a
+  small footprint app.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall E
+SUMMARY:Swiss Army Django: Small Footprint ETL - Noah Kantrowitz
+URL:https://pretalx.com/pyconau-2023/talk/BKHZML/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-9YWT73@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T161000
+DTEND;TZID=Australia/Adelaide:20230818T164000
+DESCRIPTION:Imagine performing a basic python API call to load observations
+  of the natural environment from any sensor at any part of the spectrum\, 
+ any where in space-time since we started digitizing this information. This
+  is what opendatacube aspires to do using its signature **datacube.load()*
+ * command. This talk will cover some history/ architecture of this project
+  and publicly deployed instance of datacubes where this dream is being imp
+ lemented a continent at a time.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall C (Plenary)
+SUMMARY:OpenDataCube - Petabyte Scale Satellite Imagery Processing in Pytho
+ n - Tishampati Dhar
+URL:https://pretalx.com/pyconau-2023/talk/9YWT73/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-MAWUVE@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T165000
+DTEND;TZID=Australia/Adelaide:20230818T172000
+DESCRIPTION:The United Nations Sustainable Development Goal 6\, states acce
+ ss to safe drinking water and sanitation for all is a human right. Potable
+  and sewer water networks are critical infrastructure to achieve this glob
+ ally. In Australia\, the annual industrial expenditure on potable and sewe
+ r water services is around 4.5 billion AUD. Managing and maintaining a cal
+ m water network is important from a consumer\, environment and government 
+ perspective. Over the past few years\, major water utilities across Austra
+ lia have exponentially  added data collection through deployment of a wide
+  range of IoT devices across the potable and sewer water networks. However
+ \, currently\, this data is rarely used to effectively create insights to 
+ enable decision support that transforms productivity\, reduces cost and mi
+ nimises risk.\n\nAt Spiral Data\, we focus on developing Artificial Intell
+ igence (AI) and Machine Learning (ML) tools towards creating these insight
+ s and decision support across the water industry. In this talk\, we will d
+ iscuss two important use cases that were designed\, developed and deployed
+  using our python base tech stack through our cloud partner (AWS).\n\n1. I
+ dentifying blockages in gravity sewer systems\nBlockages can happen especi
+ ally in sewer networks and large blockages can have major environmental im
+ pact. However\, detecting blockages is difficult since there are no curren
+ t alarms or alerts. In this use case\, we will discuss how we use AI/ML ap
+ proaches to identify blockages in networks that can then raise an alert. T
+ his in turn can in turn enable support crew to address the blockage in a t
+ imely manner. These alerts can also enable operations teams to effectively
+  plan around their limited budget and human capacity.\n\n2. Identifying hi
+ gh speed pressure changes in potable water network to monitor pipe failure
+ s\nPotable water networks\, especially in large metro areas can experience
+  recurrent large pressure changes (transients). This can be due to users (
+ ex: fire testing) or it can be network induced (ex: valves/pump operation)
+ . These pressure transients can cause unexpected failures and as a result 
+ monitoring them is of pressing importance. However these data are collecte
+ d at very high rates and as a result it cannot be analyzed at scale by hum
+ ans. At SpiralData\, we are building automated solutions using AI/ML to id
+ entify\, analyze and group these high speed pressure transients. This in t
+ urn becomes a valuable tool to pursue field investigations to identify sou
+ rce and to also plan better for capex expenses.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall A
+SUMMARY:From Data to Decision: Monitoring and Improving Water Networks usin
+ g AI/ML - Ram Balachandran
+URL:https://pretalx.com/pyconau-2023/talk/MAWUVE/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-FS3SQV@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T165000
+DTEND;TZID=Australia/Adelaide:20230818T172000
+DESCRIPTION:N+1 problems in Django are not new. Anyone who has worked with 
+ Django must have had some interaction with the N+1 problem. Django Rest Fr
+ amework allows building robust APIs on top of Django. We will explore the 
+ N+1 problem in DRF\, understand its occurrence in DRF views and serializer
+  fields\, and review its performance implications.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall E
+SUMMARY:N+1 Problem in Django Rest Framework - Syed Muhammad Dawoud Sheraz 
+ Ali
+URL:https://pretalx.com/pyconau-2023/talk/FS3SQV/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-AXQPBA@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T165000
+DTEND;TZID=Australia/Adelaide:20230818T172000
+DESCRIPTION:With all the hype about applications that uses machine learning
+ \, I think there is one key aspect that developers tend to forget: **"Perf
+ ormance check and monitoring"**.\n\nML and AI services have become very ac
+ cessible and can be integrated into any application you can think of. But 
+ what do you do after you integrated your ML models to your application? <u
+ >How do you know that the output of the ML models are correct and up to st
+ andard? What are the signs that the model's performance is changing and ho
+ w do you take action on such changes? </u>\n\nTypically\, these problems a
+ re just discussed on a theoretical and research level. But how can we carr
+ y over these techniques and apply it to our application? Not just that\, h
+ ow can we make it so that monitoring and performance check is as simple as
+  writing a unit test (or not).\n\nIn this session\, we will learn some sim
+ ple but effective ways on model performance monitoring as well as look at 
+ some python implementation and architecture consideration.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall C (Plenary)
+SUMMARY:A simple way to validate and monitor the performance of your ML App
+ lications. - Niño R. Eclarin
+URL:https://pretalx.com/pyconau-2023/talk/AXQPBA/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-3RP7PM@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T172000
+DTEND;TZID=Australia/Adelaide:20230818T173000
+DESCRIPTION:Closing address for the Education track.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall B
+SUMMARY:Education Track Closing Address - Nicky Ringland\, Amanda J Hogan\,
+  Arjen Lentz
+URL:https://pretalx.com/pyconau-2023/talk/3RP7PM/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-VDNHVZ@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T172000
+DTEND;TZID=Australia/Adelaide:20230818T173000
+DESCRIPTION:Closing address for All Things Data!
+DTSTAMP:20230817T234004Z
+LOCATION:Hall C (Plenary)
+SUMMARY:All Things Data Closing Address - Genevieve Buckley\, Ned Letcher\,
+  Ray Hilton\, Pedro Junqueira
+URL:https://pretalx.com/pyconau-2023/talk/VDNHVZ/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-RDEMZF@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T172000
+DTEND;TZID=Australia/Adelaide:20230818T173000
+DESCRIPTION:Closing address for Our Connected Universe.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall A
+SUMMARY:Our Connected Universe Closing Address - Jack Skinner\, Chris (Tekn
+ etia)
+URL:https://pretalx.com/pyconau-2023/talk/RDEMZF/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-VYEUGH@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230818T172000
+DTEND;TZID=Australia/Adelaide:20230818T173000
+DESCRIPTION:Closing address for DjangoCon AU.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall E
+SUMMARY:DjangoCon AU Closing Address - Katie McLaughlin\, Liz Holliday
+URL:https://pretalx.com/pyconau-2023/talk/VYEUGH/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-GP8MPG@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230819T082500
+DTEND;TZID=Australia/Adelaide:20230819T084500
+DESCRIPTION:Everything you need to know if you've never been to a PyCon AU 
+ before.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall C (Plenary)
+SUMMARY:First Timers Session - Daisy Leigh Brenecki
+URL:https://pretalx.com/pyconau-2023/talk/GP8MPG/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-DDRH7V@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230819T090000
+DTEND;TZID=Australia/Adelaide:20230819T092500
+DESCRIPTION:Welcome to PyCon AU!
+DTSTAMP:20230817T234004Z
+LOCATION:Hall C (Plenary)
+SUMMARY:Conference Opening (Saturday) - Daisy Leigh Brenecki
+URL:https://pretalx.com/pyconau-2023/talk/DDRH7V/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-9YNMHN@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230819T092500
+DTEND;TZID=Australia/Adelaide:20230819T101000
+DESCRIPTION:Delve into the world of digital rights in Australia\, where tec
+ h\, politics and human rights combine.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall C (Plenary)
+SUMMARY:Digital Rights / Digital Wrongs: Tech Policy and Human Rights in Au
+ stralia - Samantha Floreani
+URL:https://pretalx.com/pyconau-2023/talk/9YNMHN/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-WCRWVR@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230819T104000
+DTEND;TZID=Australia/Adelaide:20230819T111000
+DESCRIPTION:Australia’s electricity grid is transitioning to 100% renewab
+ le and the industry’s goal is to be able to run in this configuration by
+  2025.\n\nThis is a huge engineering and organizational undertaking\, and 
+ Python is supporting us all the way.\n\nThis talk shall start with an over
+ view of the energy grid as it has been pretty much for a century. We shall
+  look at the physics of electricity and the control systems required to ma
+ intain constant\, reliable supply.\n\nManagement of the grid involving the
+  movement of large volumes of data from sensors in the field\, to centrali
+ zed data stores. Data is merged with models and used to make operational d
+ ecision in near real time\, to design the grid into the future\, and to an
+ alyse faults in the past.\n\nPython is used to support these data flows an
+ d models and executes in a high availability environment on servers\, as w
+ ell as on users’ desktops supporting ad hoc analysis.\n\nWith every line
+  of new code\, Python becomes more critical to Australia’s energy future
+ .\n\nWe shall cover three broad topics:\n\na) A little power system engine
+ ering: How the grid works.\nb) Case study: Modeling the grid in Python wit
+ h code fragments.\nb) Case study: The weather (sunny? windy? hot? cold?) a
+ nd social (weekend\, weekday\, public holiday) aspect of forecasting suppl
+ y and demand.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall B
+SUMMARY:How Python is supporting Australia’s energy transition to 100% re
+ newable - Peter Aych\, Josh James
+URL:https://pretalx.com/pyconau-2023/talk/WCRWVR/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-SBZNPD@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230819T104000
+DTEND;TZID=Australia/Adelaide:20230819T111000
+DESCRIPTION:**APIs! Async! Type validation! ISO standards! Large geodata!**
+  Let’s do it all in python in 2023.\n\nThis will be a tour of FastAPI\, 
+ Pydantic\, pyproj and some other interesting modern tooling -- this talk i
+ s aimed towards people who don’t know about these things but are curious
+  about maybe using them or at least seeing how they’re used IRL.\n\nWe
+ ’re responsible for the darling golden child of data.gov.au\, its most p
+ opular dataset: **G-NAF**\, the monster-scale National Address File. We ma
+ ke sure this data (and a bunch of its buddies) are delivered via API to al
+ l who wants it as fast and accurately as possible every day and we use mos
+ tly python tooling to do it. It’s a fun and Australia-centric data-paloo
+ za.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall E
+SUMMARY:Learning FastAPI on hard-mode: getting out lots of the hardest (aw 
+ yeah\, geo) data fast - Elena Williams
+URL:https://pretalx.com/pyconau-2023/talk/SBZNPD/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-LZDHUW@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230819T104000
+DTEND;TZID=Australia/Adelaide:20230819T111000
+DESCRIPTION:What is gender? It is easy to imagine gender as a linear spectr
+ um\, but in my research I have explored the concept that gender is more li
+ ke a three dimensional spectrum of color. I posit that we all experience g
+ ender slightly differently\, just like we experience color slightly differ
+ ently. Therefore\, I built an online project using Python and Flask to cla
+ ssify people as individual colors rather than genders\, to create a tapest
+ ry of gender. and show gender as a literal\, individual\, spectrum.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall A
+SUMMARY:Gender Tapestry - New ways of looking at gender classification - J.
+  Rosenbaum
+URL:https://pretalx.com/pyconau-2023/talk/LZDHUW/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-G9P9VP@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230819T104000
+DTEND;TZID=Australia/Adelaide:20230819T111000
+DESCRIPTION:This talk will serve as a retrospective on this little django s
+ ide project that over the course of it's life grew to 70\,000 users\, made
+  somewhere around four billion Twitter API calls\, and was supported by se
+ veral in the NZ/AU Python community.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall C (Plenary)
+SUMMARY:(Probably) a retrospective for Secateur - Tom Eastman
+URL:https://pretalx.com/pyconau-2023/talk/G9P9VP/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-GR3J3T@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230819T112000
+DTEND;TZID=Australia/Adelaide:20230819T115000
+DESCRIPTION:If you need to build a user interface for your Python code\, mo
+ st guides will tell you that your only options are to use the command line
+ \, or wrap your code in a web interface. \n\nHowever\, there is another op
+ tion - building a GUI interface. In this talk\, you'll learn how to build 
+ a cross-platform GUI application to wrap your Python code.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall E
+SUMMARY:How to build a cross-platform graphical user interface with Python 
+ - Russell Keith-Magee
+URL:https://pretalx.com/pyconau-2023/talk/GR3J3T/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-VXCD7C@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230819T112000
+DTEND;TZID=Australia/Adelaide:20230819T115000
+DESCRIPTION:We give an overview of how Python is used in bioinformatics\, f
+ ocusing on high throughput DNA sequencing and clinical genetic variant det
+ ection and classification.\n\nWe show our Django application\, VariantGrid
+ \, developed by SA Health\, which has also been used as a base for other p
+ rojects\, including the Australian Genomics project Shariant – the first
+  platform used across Australia and New Zealand diagnostic labs for sharin
+ g variant classifications.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall B
+SUMMARY:Analysing and sharing genetic data with Python - David Lawrence
+URL:https://pretalx.com/pyconau-2023/talk/VXCD7C/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-ZDUVFF@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230819T112000
+DTEND;TZID=Australia/Adelaide:20230819T115000
+DESCRIPTION:MicroPython started life in early 2013 as an experiment\, to se
+ e if it was possible to shrink a high-level language like Python down enou
+ gh to run on very small devices.  Ten years later MicroPython is a mature 
+ open-source project that is relied upon by a wide variety of users.  In th
+ is talk I will discuss its history\, my experiences maintaining it as an o
+ pen source project\, and some of the interesting places MicroPython has fo
+ und itself in.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall A
+SUMMARY:Ten Years of MicroPython - Damien George
+URL:https://pretalx.com/pyconau-2023/talk/ZDUVFF/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-YZWJGH@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230819T112000
+DTEND;TZID=Australia/Adelaide:20230819T115000
+DESCRIPTION:As says the famous Brett Cannon quote\, some people “come for
+  the language\, but stay for the community”. Usually it starts out parti
+ cipating in local meet ups\, or focused groups like PyLadies\, and sometim
+ es we want to help\, but we’re not exactly sure on how to do so. And mov
+ ing even further\, there is the possibility of extending our work not only
+  locally but also helping communities all around the globe. In this talk\,
+  we will discuss ways we can cooperate within the Python community in move
+ ments  that can be done both locally and outside our country on a voluntar
+ y basis.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall C (Plenary)
+SUMMARY:International cooperation within the Python community - Débora Aze
+ vedo
+URL:https://pretalx.com/pyconau-2023/talk/YZWJGH/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-7EG3JD@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230819T120000
+DTEND;TZID=Australia/Adelaide:20230819T123000
+DESCRIPTION:Quoth the Zen of Python: “Simple is better than complex”. \
+ n \nThe Python community has long celebrated simplicity as a virtue\, but 
+ Python has grown\, the features that make Python simple in small programs 
+ don’t matter as much.\n\nIn this talk\, we’ll explore how the Python c
+ ommunity used to think about simplicity\, how we think about simplicity no
+ w that Python is used for ever more complex tasks\, and consider whether 
+ “simple is better than complex” is advice that Pythonistas can meaning
+ fully follow.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall C (Plenary)
+SUMMARY:The Complexity of Simplicity - Christopher Neugebauer
+URL:https://pretalx.com/pyconau-2023/talk/7EG3JD/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-TL3HQ8@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230819T120000
+DTEND;TZID=Australia/Adelaide:20230819T123000
+DESCRIPTION:Are we really building products that serve everyone\, or just a
+  selected few?\n\nAs developers\, we have responsibility to ensure that ou
+ r products serve everyone\, regardless of their background or identity. Ho
+ wever\, our unconscious bias often creeps into even the most well-intentio
+ ned projects and impacts the way we develop products or engage with commun
+ ities\, leading to unintentional exclusions.\n\nWhen I first designed a Sp
+ eech-Text-Analytic app\, my focus was to simplify business communication w
+ ith transcribed audio and valuable insights. However\, feedback from the c
+ ommunity highlighted it had limitations for diverse users\, including thos
+ e with disabilities who faced inaccurate captions for audio content.\n\nTh
+ is wake-up call prompted me to improve accessibility and user-friendliness
+  for marginalized groups. And for the same reason\, I'm making proactive s
+ teps to cater for the marginalized by integrating a feature that recognize
+ s Nigerian native languages.\n\nAs tech creators\, we have the power to cr
+ eate change\, but good intentions alone are not enough. This talk will off
+ er strategies to address unconscious bias in product and community buildin
+ g\, while avoiding common pitfalls. Attendees will learn to understand div
+ erse needs & experiences for more inclusive environments.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall A
+SUMMARY:Nothing for Us\, Without Us\; Breaking Unconscious Bias in Building
+  Products - Victor Ogunjobi
+URL:https://pretalx.com/pyconau-2023/talk/TL3HQ8/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-F3MAFZ@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230819T120000
+DTEND;TZID=Australia/Adelaide:20230819T123000
+DESCRIPTION:Tech debt is a familiar concept in most organisations and has b
+ een the subject of extensive discussion regarding individual & organisatio
+ nal factors. However\, what’s missing is a macro-economic analysis of wh
+ y tech debt exists and how to combat it. This talk provides that analysis.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall B
+SUMMARY:In the Long Run We're All Dead: An Economist's Guide to Tech Debt -
+  Dana Scheider
+URL:https://pretalx.com/pyconau-2023/talk/F3MAFZ/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-873TCU@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230819T120000
+DTEND;TZID=Australia/Adelaide:20230819T123000
+DESCRIPTION:CountESS is a new visual programming toolkit for data processin
+ g in bioinformatics.  It aims to make complicated data processing pipeline
+ s easy to set up and replicate\, but also easy to modify\, explore and ext
+ end (in Python)
+DTSTAMP:20230817T234004Z
+LOCATION:Hall E
+SUMMARY:CountESS: Count-based Experiment Scoring and Statistics - Nick Moor
+ e
+URL:https://pretalx.com/pyconau-2023/talk/873TCU/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-PUDUQQ@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230819T133000
+DTEND;TZID=Australia/Adelaide:20230819T140000
+DESCRIPTION:The more whimsy the better. First\, it's about having fun solvi
+ ng interesting problems\, and second it's about breaking projects down int
+ o manageable chunks and harvesting useful results. Also Python.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall C (Plenary)
+SUMMARY:Maths Whimsy with Python - David Colls
+URL:https://pretalx.com/pyconau-2023/talk/PUDUQQ/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-XR3BLE@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230819T133000
+DTEND;TZID=Australia/Adelaide:20230819T140000
+DESCRIPTION:Through various practical experiences and case studies\, this t
+ alk aims to share with professional software engineers the output and expe
+ ctations of "seniority" in code submission (pull-request) and code review 
+ at each stage of software development.\n\nSpecifically\, it covers:\n1. Ke
+ y points of writing and reviewing Python code.\n2. Related environment\, t
+ ools\, and methods.\n\nIn the summary\, the talk will also move from the p
+ erspective of a senior engineer's Python code review to the communication\
+ , learning\, sharing\, and recruitment within an organization. Enough time
+  will be assured for Q&A by best effort.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall E
+SUMMARY:Code Review of Senior Python Engineers - Keith Yang
+URL:https://pretalx.com/pyconau-2023/talk/XR3BLE/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-RAKQDU@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230819T133000
+DTEND;TZID=Australia/Adelaide:20230819T140000
+DESCRIPTION:A package-and-deploy pipeline is like plumbing: if it's working
+ \, you don't notice\, but when it's not… you really do\, and getting it 
+ working can be messy. We've tried several approaches for building Python a
+ rtefacts to run on AWS Lambda\, and finally settled on one that works well
+ .  I'll walk through how the Pants build system works in practice for gett
+ ing our code running in production\, and how it's improved upon other comm
+ on practices we previously used.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall A
+SUMMARY:Packaging for serverless: effortless? Doubtless! - Huon Wilson
+URL:https://pretalx.com/pyconau-2023/talk/RAKQDU/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-H3UBSS@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230819T133000
+DTEND;TZID=Australia/Adelaide:20230819T140000
+DESCRIPTION:Experimenting\, building a model\, and putting it into producti
+ on takes a long time. The time difference might range from months to years
+ . The distribution of data may vary throughout this time gap\, resulting i
+ n differences between the data used to train and create the model and the 
+ data that the model encounters in the production environment. \n\n\nThe pe
+ rformance of models degrades over time as a result of this drift\, resulti
+ ng in weak and declining predictive performance in predictive models. This
+  is a typical occurrence\, but it is a significant problem in performance-
+ critical Machine Learning systems. \n\n\nToday's data is changing and evol
+ ving at a breakneck speed. It's critical to keep up with shifting data if 
+ you require high-performance models. As a result\, it's critical to spot t
+ he point in production where your data diverges from the one it was traine
+ d on.\n\n\nLearn how these drifts affect our machine learning models and h
+ ow to track and assess them in Python so that the model remains relevant i
+ n production and makes fair and unbiased predictions over time.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall B
+SUMMARY:Don’t let your data model `drift` away! - Neeraj Pandey
+URL:https://pretalx.com/pyconau-2023/talk/H3UBSS/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-WBPJWD@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230819T141000
+DTEND;TZID=Australia/Adelaide:20230819T144000
+DESCRIPTION:Edge computing has emerged as an evolving technology that has t
+ he potential to transform the way we process and store data. In this talk\
+ , I will cover what exactly is Edge computing\, and how does it differ fro
+ m Cloud computing? Moreover\, which approach is the right choice for your 
+ organisation?
+DTSTAMP:20230817T234004Z
+LOCATION:Hall A
+SUMMARY:The Power of Edge Computing: What it is and Why it Matters? - Swast
+ ika Yadav
+URL:https://pretalx.com/pyconau-2023/talk/WBPJWD/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-F7JN7X@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230819T141000
+DTEND;TZID=Australia/Adelaide:20230819T144000
+DESCRIPTION:MicroPython is *great* for hobbyists! You can control LEDs and 
+ motors\, it's so easy! But you wouldn't use it for anything *serious*. Rig
+ ht? Surely not! It's too slow. You can't use all the features of a micro. 
+ It consumes too much power. You don't have control over memory.\n\nYeah\, 
+ nah. You can't do serious embedded work with MicroPython...can you?
+DTSTAMP:20230817T234004Z
+LOCATION:Hall B
+SUMMARY:You can't do that in MicroPython! - Matt Trentini
+URL:https://pretalx.com/pyconau-2023/talk/F7JN7X/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-BQXP78@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230819T141000
+DTEND;TZID=Australia/Adelaide:20230819T144000
+DESCRIPTION:Have you ever sat there while writing an Ansible playbook and t
+ hought to yourself "Gee\, I know how to express what I want in in a progra
+ mming language\, such as Python\, but this Domain Specific Language bolted
+  on top of Jinja layered on top of YAML is sure getting me down"\, then th
+ is may be the talk for you.  Welcome to pyinfra\, where your inventories a
+ nd playbooks look remarkably like Python code\, mainly because they are (w
+ ith some clarification around the "mainly").\n\nIn this talk\, the present
+ er (hi!) will show the conversion of one of their Ansible playbooks to pyi
+ nfra.  Along the way he will show how relatively straightforward it is to 
+ write facts and operations (a cornerstone of most orchestration tools) und
+ er pyinfra.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall E
+SUMMARY:One person's Ansible is another's pyinfra. - Daryl Tester
+URL:https://pretalx.com/pyconau-2023/talk/BQXP78/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-C7DZRQ@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230819T141000
+DTEND;TZID=Australia/Adelaide:20230819T144000
+DESCRIPTION:h5pydantic is a Pydantic based library used to describe the lay
+ out of HDF5 files using Python models\, in a similar way to how SQLAlchemy
+  models are used to describe the layout of an SQL database. HDF5 files are
+  structured binary files\, designed to store science and mathematical data
+ .
+DTSTAMP:20230817T234004Z
+LOCATION:Hall C (Plenary)
+SUMMARY:h5pydantic\, from a Synchrotron through Python to HDF5 - Clinton Ro
+ y
+URL:https://pretalx.com/pyconau-2023/talk/C7DZRQ/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-FHTNZN@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230819T145000
+DTEND;TZID=Australia/Adelaide:20230819T152000
+DESCRIPTION:This talk explores Robyn\, a Python web framework that utilizes
+  Rust to achieve high performance while still allowing for easy Python cod
+ e writing. By examining Robyn's architecture and development\, the speaker
+  will discuss how it improves web application performance and provides ins
+ ights into designing high-performance web frameworks. The talk highlights 
+ the growing involvement of Rust in the Python ecosystem and how Robyn is p
+ ushing the limits of Python web development.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall B
+SUMMARY:Robyn: A fast async Python web framework with a Rust runtime - Sans
+ kar Jethi
+URL:https://pretalx.com/pyconau-2023/talk/FHTNZN/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-C3HYLF@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230819T145000
+DTEND;TZID=Australia/Adelaide:20230819T152000
+DESCRIPTION:Traditional IT operations is overwhelmingly reactive - humans r
+ espond to incidents and tickets. There is so much noise! Alerts\, tickets\
+ , audits\, chat threads. What if ops could catch the small things before t
+ hey turn into big problems? What if we could use events and serverless to 
+ remediate issues?
+DTSTAMP:20230817T234004Z
+LOCATION:Hall E
+SUMMARY:Proactive Ops: Event Driven IT Operations - Dave Hall
+URL:https://pretalx.com/pyconau-2023/talk/C3HYLF/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-LQZHTK@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230819T145000
+DTEND;TZID=Australia/Adelaide:20230819T152000
+DESCRIPTION:Greedy\, Lazy or Possessive? Improving regex performance with a
+ tomic grouping\, possessive quantifiers and more!\n\nRegex can be a powerf
+ ul fuzzy text processing tool. But large data starts to show how regex can
+  be slow. This talk will examine some of the reasons why regex can be slow
+ \, and what can be done to improve performance.\n\nMany of the techniques 
+ covered are also applicable in other programming tools that use regex.\n\n
+ This is _not_ an introduction to regex talk\; an understanding of basic re
+ gex\, and regex in Python\, is assumed.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall A
+SUMMARY:Faster\, Faster! Improving regex performance with atomic grouping\,
+  possessive quantifiers and more! - Peter Lovett
+URL:https://pretalx.com/pyconau-2023/talk/LQZHTK/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-FHXB3Z@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230819T145000
+DTEND;TZID=Australia/Adelaide:20230819T152000
+DESCRIPTION:Everyone has heard it from someone... "Music was better in my d
+ ay". As a parent of teenagers\, I'm pretty sure I've even said it. But who
+ 's right? Which decade's pop music is linguisitcally more interesting\, an
+ d is there a trend? Using Python and some text analysis I will attempt to 
+ answer these questions and more. By the end of the talk all will be reveal
+ ed... and we can happily sing along to some pop songs safe in the knowledg
+ e that they are linguisitcally superior.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall C (Plenary)
+SUMMARY:Are we singing sillier? - Amanda J Hogan
+URL:https://pretalx.com/pyconau-2023/talk/FHXB3Z/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-UAR3GC@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230819T155000
+DTEND;TZID=Australia/Adelaide:20230819T165000
+DESCRIPTION:Like regular talks\, but shorter!
+DTSTAMP:20230817T234004Z
+LOCATION:Hall C (Plenary)
+SUMMARY:Lightning Talks (Saturday) - Christopher Neugebauer
+URL:https://pretalx.com/pyconau-2023/talk/UAR3GC/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-TV9PVE@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230819T165000
+DTEND;TZID=Australia/Adelaide:20230819T170000
+DESCRIPTION:It's time to wrap up for the day!
+DTSTAMP:20230817T234004Z
+LOCATION:Hall C (Plenary)
+SUMMARY:Closing Address (Saturday) - Daisy Leigh Brenecki\, Lilly Ryan
+URL:https://pretalx.com/pyconau-2023/talk/TV9PVE/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-LVBLXT@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230820T090000
+DTEND;TZID=Australia/Adelaide:20230820T092000
+DESCRIPTION:Welcome to the last day of PyCon AU!
+DTSTAMP:20230817T234004Z
+LOCATION:Hall C (Plenary)
+SUMMARY:Conference Opening (Sunday) - Daisy Leigh Brenecki\, Lilly Ryan
+URL:https://pretalx.com/pyconau-2023/talk/LVBLXT/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-QZD9MY@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230820T092000
+DTEND;TZID=Australia/Adelaide:20230820T100500
+DESCRIPTION:Why do some ideas seem to stick around forever? Why do some ide
+ as seem like they've been there forever\, even when they haven't? Why do s
+ ome ideas never seem to gain traction\, even when they're good?
+DTSTAMP:20230817T234004Z
+LOCATION:Hall C (Plenary)
+SUMMARY:The Terrifying Longevity of Ideas - Benno Rice
+URL:https://pretalx.com/pyconau-2023/talk/QZD9MY/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-9TZFGM@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230820T103500
+DTEND;TZID=Australia/Adelaide:20230820T110500
+DESCRIPTION:Chances are you've come across at least a few articles talking 
+ about "software supply chains\," "SBOMs\," or "open source dependencies." 
+ \n\nIf you've read any of these articles and have no idea what it means or
+  want to learn something new - you've come to the right place. \n\nWe will
+  give you a crash course into the commotion over open-source software secu
+ rity\, the organizations paying attention to it\, and why you should pay a
+ ttention to the billions of dollars pledged to tackle this problem.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall C (Plenary)
+SUMMARY:Our Dependency on Open Source Dependencies - amanda casari
+URL:https://pretalx.com/pyconau-2023/talk/9TZFGM/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-RCTZYW@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230820T103500
+DTEND;TZID=Australia/Adelaide:20230820T110500
+DESCRIPTION:Running a good retrospective is hard. Running a good retrospect
+ ive when you can't all gather in person is harder. Come and find out how t
+ o do it from someone who has done it well.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall B
+SUMMARY:Look Backwards to Go Forwards: It's Retro Time - Peter Hall
+URL:https://pretalx.com/pyconau-2023/talk/RCTZYW/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-J7XDKE@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230820T103500
+DTEND;TZID=Australia/Adelaide:20230820T110500
+DESCRIPTION:You might know of WebAssembly as a way to run languages other t
+ han JavaScript in a web app\, but it is much more than that. Not only does
+  WebAssembly let us push the limits of what a web browser can do\, it also
+  has an exciting future outside the browser.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall E
+SUMMARY:What can't WebAssembly do? - Katie Bell
+URL:https://pretalx.com/pyconau-2023/talk/J7XDKE/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-YYGFBE@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230820T103500
+DTEND;TZID=Australia/Adelaide:20230820T110500
+DESCRIPTION:Six QA Tools that will make your Python code better…\n\nPut s
+ imply\, they are: Black\, iSort\, PyLint\, MyPy\, PyTest and Coverage.\n\n
+ When used regularly as part of your code – test – commit – push cycl
+ e\, these tools combine to improve the quality of your Python code. No mor
+ e will your team argue about trite matters of coding style freeing up thei
+ r creativity for issues of design that truly matter.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall A
+SUMMARY:Six QA Tools that will make your Python code better - Peter Aych
+URL:https://pretalx.com/pyconau-2023/talk/YYGFBE/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-NUBYTG@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230820T111500
+DTEND;TZID=Australia/Adelaide:20230820T114500
+DESCRIPTION:Anytime you search for a cafe on Google Maps\, you are using a 
+ geocoder: an algorithm that converts a text input into a standardized outp
+ ut\, along with the precise geographic coordinates. Mapping points on a jo
+ urney\, linking large customer databases\, even contact tracing all involv
+ e geocoding. Google’s Geocoding API is a common way to do this\, however
+  this can be costly and slow when there are a large number of locations. F
+ urthermore\, in sensitive domains such as healthcare\, the use of an exter
+ nal API may not be permitted.\n\nSo why don’t we make our own geocoder i
+ n Python instead?\n\nIn this talk\, I will introduce an open source Python
+  package for geocoding. Aimed at anyone who tinkers with geospatial data\,
+  I will describe how it was built\, along the way exploring a few differen
+ t geocoding algorithms as well as tools such as embedded databases and tex
+ t embeddings.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall B
+SUMMARY:Fast\, accurate\, open-source geocoding in Python - Alex Lee
+URL:https://pretalx.com/pyconau-2023/talk/NUBYTG/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-XSDU8C@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230820T111500
+DTEND;TZID=Australia/Adelaide:20230820T114500
+DESCRIPTION:I’ve played Wordle most days since late 2021. Maybe you have 
+ too? One thing I wonder after solving the puzzle for the day is whether I 
+ made a bad choice of words. Should I have chosen SMASH\, or STASH? Just ho
+ w lucky was I to solve a puzzle?\n\nThis talk will explore how to implemen
+ t a Wordle statistics bot using Python's concurrent processing tools. No s
+ poilers\, I promise.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall C (Plenary)
+SUMMARY:FORKS? POOLS? ASYNC? Solving Wordle with Python’s concurrency too
+ ls - Christopher Neugebauer
+URL:https://pretalx.com/pyconau-2023/talk/XSDU8C/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-LCM73Z@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230820T111500
+DTEND;TZID=Australia/Adelaide:20230820T114500
+DESCRIPTION:Ever been in a situation where you've hastily written a bunch o
+ f code\, just to make something "work"?\n\nHave you then trembled with fea
+ r\, looking at your single\, thousand line file\, with global variables\, 
+ multi parameter functions\, and zero classes\, not knowing where to start?
+ \n \nOr do you question why changing your complex code and fixing bugs tak
+ es so long?\n\nThen come and learn about how refactoring can not only be f
+ un and educational\, but also profitable!
+DTSTAMP:20230817T234004Z
+LOCATION:Hall A
+SUMMARY:Refactoring for fun and profit - Evan Kohilas
+URL:https://pretalx.com/pyconau-2023/talk/LCM73Z/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-VRPSMK@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230820T111500
+DTEND;TZID=Australia/Adelaide:20230820T114500
+DESCRIPTION:How to publish Python packages containing native code without t
+ he hassle of building 27 wheels.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall E
+SUMMARY:WASM in your wheel? - Jim Mussared
+URL:https://pretalx.com/pyconau-2023/talk/VRPSMK/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-D9TMCM@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230820T115500
+DTEND;TZID=Australia/Adelaide:20230820T122500
+DESCRIPTION:Have you ever used Pytest? Have you ever wondered what happens 
+ when you run pytest over your tests folder\, create parametrized test case
+ s\, or use fixtures?\n\nIn this talk\, we will find answers to all these b
+ y building our own testing library.\nBy the end of this talk\, you will ha
+ ve a solid understanding of reverse engineering and how internals of a tes
+ ting library can be designed
+DTSTAMP:20230817T234004Z
+LOCATION:Hall A
+SUMMARY:How to build a unit testing library from scratch? - Bhavani Ravi
+URL:https://pretalx.com/pyconau-2023/talk/D9TMCM/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-GPEJFD@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230820T115500
+DTEND;TZID=Australia/Adelaide:20230820T122500
+DESCRIPTION:Maybe it's just me\, but I hate stupid examples. I hate reading
+  about OOP with animal examples as much as I hate reading about async with
+  the client using bare asyncio.sleep statements. Mostly because (consideri
+ ng you won't work for a zoo 🤷‍♂️) these examples will never get a
+ ny close to real life. I don't want to start talking about the solution (i
+ .e. async)\, I want you to feel the problem first\, I want you to run thin
+ gs locally from your own computer. So\, in this talk\, I want then to expl
+ ore async by using examples that you can run yourself and understand. So\,
+  the plan is to learn:\n- What are sync and async processes with a real wo
+ rd example\n- Where to use Sync and Async \n- Why and why not use Sync and
+  Async\n- Basic syntax and Usage of async in Python\n- Explore async with 
+ slow HTTP queries\n- Explore async with slow Database queries\n- Share a r
+ eal project running in production that uses async
+DTSTAMP:20230817T234004Z
+LOCATION:Hall B
+SUMMARY:Demystifying Python AsyncIO: A Real-World Approach - Kanishk Pachau
+ ri
+URL:https://pretalx.com/pyconau-2023/talk/GPEJFD/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-PT9KHK@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230820T115500
+DTEND;TZID=Australia/Adelaide:20230820T122500
+DESCRIPTION:What's the Minimum Viable Incident Response Protocol?  Come fin
+ d out!
+DTSTAMP:20230817T234004Z
+LOCATION:Hall C (Plenary)
+SUMMARY:How To Have An Operational Incident (a crash course) - Courtney Eck
+ hardt
+URL:https://pretalx.com/pyconau-2023/talk/PT9KHK/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-UJRC9G@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230820T115500
+DTEND;TZID=Australia/Adelaide:20230820T122500
+DESCRIPTION:Ever wanted to use your favourite C++ libraries in your Python?
+  This talk will discuss different ways of generating bindings to C++ libra
+ ries\, including the approaches that the RobotPy project has used over man
+ y years.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall E
+SUMMARY:Generating Python bindings to C++ libraries - David Vo
+URL:https://pretalx.com/pyconau-2023/talk/UJRC9G/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-8BT9NT@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230820T133000
+DTEND;TZID=Australia/Adelaide:20230820T140000
+DESCRIPTION:An overview of the growing number of Rust built tools in the Py
+ thon ecosystem and how you can integrate Rust and Python yourself
+DTSTAMP:20230817T234004Z
+LOCATION:Hall B
+SUMMARY:Rust for the Python dev - Owen Lamont
+URL:https://pretalx.com/pyconau-2023/talk/8BT9NT/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-ULZULQ@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230820T133000
+DTEND;TZID=Australia/Adelaide:20230820T140000
+DESCRIPTION:In addition to its role as the scripting language of choice in 
+ the 3D graphics world\, Blender one of the leading 3D art programs is buil
+ t with Python and is packed full of ways you can use Python code to create
+  3D content both directly and through plugins that sometimes even have the
+ ir own Python APIs. Come with me on a short journey into how you can creat
+ e 3D content using Blender\, its plugins\, and Python!
+DTSTAMP:20230817T234004Z
+LOCATION:Hall A
+SUMMARY:Blender and 3D Art anyone can make using Python - Sam Bishop
+URL:https://pretalx.com/pyconau-2023/talk/ULZULQ/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-CVYXRW@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230820T133000
+DTEND;TZID=Australia/Adelaide:20230820T140000
+DESCRIPTION:Everyone wants to understand why things happen\, and what would
+  happen if you did things differently. You’ve probably read that statist
+ ics can only tell you if things are correlated\, or associated\, and this 
+ explains nothing about cause and effect. But in fact there’s a process c
+ alled Causal Inference which does answer these questions\, can tell you if
+  A causes B and more importantly\, can tell you what would happen\, if… 
+ This talk will help you to frame and tackle these questions using your dat
+ a and some popular Python libraries.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall C (Plenary)
+SUMMARY:An introduction to Causal Inference with Python – making accurate
+  estimates of cause and effect from data\, using PyWhy and DoWhy - David R
+ awlinson
+URL:https://pretalx.com/pyconau-2023/talk/CVYXRW/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-A98JNT@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230820T133000
+DTEND;TZID=Australia/Adelaide:20230820T152000
+DESCRIPTION:For more information about PyCon Fair\, see: https://2023.pycon
+ .org.au/about/fair
+DTSTAMP:20230817T234004Z
+LOCATION:Hall E
+SUMMARY:PyCon Fair - 
+URL:https://pretalx.com/pyconau-2023/talk/A98JNT/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-BG9EMX@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230820T141000
+DTEND;TZID=Australia/Adelaide:20230820T144000
+DESCRIPTION:Learn how to get the most out of JavaScript classes\, exploring
+  how their implementation differs from Python classes\, and why.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall B
+SUMMARY:JavaScript classes for the Python Programmer - Curtis Maloney
+URL:https://pretalx.com/pyconau-2023/talk/BG9EMX/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-SHMPRD@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230820T141000
+DTEND;TZID=Australia/Adelaide:20230820T144000
+DESCRIPTION:Python is a programming language known for its usefulness and e
+ ase of readability\, making it an excellent choice for quickly creating se
+ rvices. These services can be scaled to millions of users. However\, a myr
+ iad of problems comes hidden with it during the development phase if obser
+ vability-driven development is not followed like the inability to meet the
+  SLAs\, poor performance\, difficulty in tracking business metrics\, etc a
+ nd this can lead to anti-patterns in software.\n\nMetrics such as these ca
+ n be valuable for root cause analysis\, driving business goals\, component
+ -level monitoring\, improving performance\, and so on. In this presentatio
+ n\, I will discuss how to adhere to best practices for observability and r
+ eliability when building a Python service from the ground up. I will expla
+ in the meaning of each concept\, how to establish a culture that promotes 
+ these practices and provide a detailed code walkthrough demonstrating how 
+ to implement these concepts effectively.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall C (Plenary)
+SUMMARY:Developing Culture To Write Reliable And Performant Services At Sca
+ le - Harshit Prasad
+URL:https://pretalx.com/pyconau-2023/talk/SHMPRD/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-LVHYPD@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230820T141000
+DTEND;TZID=Australia/Adelaide:20230820T144000
+DESCRIPTION:Drawing (or rendering) has long been one of the surprising and 
+ amazing things computers can do. But what about sketching\, are computers 
+ any good at it? Differentiable Rendering is a technique borrowed from the 
+ field of machine learning that does exactly that! In this talk we will cov
+ er how it works and demo what it can do.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall A
+SUMMARY:Learning to Sketch with Differentiable Rendering - Felipe Tavares
+URL:https://pretalx.com/pyconau-2023/talk/LVHYPD/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-8BX37D@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230820T145000
+DTEND;TZID=Australia/Adelaide:20230820T152000
+DESCRIPTION:A whimsical introduction to making music and live coding beats 
+ with Python\, during this talk we will use FoxDot\, Supercollider and writ
+ e Python code while exploring different techniques for coding beats. We wi
+ ll code up a beat in this talk and conclude with a live demonstration
+DTSTAMP:20230817T234004Z
+LOCATION:Hall A
+SUMMARY:Beatmaking with Python and FoxDot - Sangarshanan
+URL:https://pretalx.com/pyconau-2023/talk/8BX37D/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-HJDPN9@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230820T145000
+DTEND;TZID=Australia/Adelaide:20230820T152000
+DESCRIPTION:Being a junior developer is scary. But what should you do to ma
+ ke sure your junior developer journey is productive? My talk will give you
+  some career advice that you can take\, or pass to your juniors - through 
+ the lens of all the lessons and mistakes I've done.\n\n(At least it'll be 
+ better than Googling the answer.)
+DTSTAMP:20230817T234004Z
+LOCATION:Hall C (Plenary)
+SUMMARY:All the things I learnt as a junior developer (so you don't have to
+ ) - Terence Huynh
+URL:https://pretalx.com/pyconau-2023/talk/HJDPN9/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-RETLFH@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230820T145000
+DTEND;TZID=Australia/Adelaide:20230820T152000
+DESCRIPTION:Python with its flexible typing is amazingly productive - in a 
+ short time you can come up\nwith an awesome program.  But as that program 
+ ages and grows its like a child with \nuntied shoe laces. Which is where t
+ ype hints come in - type hints are easy to use\, will \nhelp tie up laces 
+ and continually check that they don't come undone again.
+DTSTAMP:20230817T234004Z
+LOCATION:Hall B
+SUMMARY:Taming the Duck with Type Hints - Brian Danilko
+URL:https://pretalx.com/pyconau-2023/talk/RETLFH/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-ARMG8D@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230820T155000
+DTEND;TZID=Australia/Adelaide:20230820T165000
+DESCRIPTION:Like regular talks\, but shorter!
+DTSTAMP:20230817T234004Z
+LOCATION:Hall C (Plenary)
+SUMMARY:Lightning Talks (Sunday) - Christopher Neugebauer
+URL:https://pretalx.com/pyconau-2023/talk/ARMG8D/
+END:VEVENT
+BEGIN:VEVENT
+UID:pretalx-pyconau-2023-A7CTJB@pretalx.com
+DTSTART;TZID=Australia/Adelaide:20230820T165000
+DTEND;TZID=Australia/Adelaide:20230820T170000
+DESCRIPTION:That's all for this year's PyCon AU (except for the sprints) 😭
+DTSTAMP:20230817T234004Z
+LOCATION:Hall C (Plenary)
+SUMMARY:Closing Address (Sunday) - Daisy Leigh Brenecki\, Lilly Ryan
+URL:https://pretalx.com/pyconau-2023/talk/A7CTJB/
+END:VEVENT
+END:VCALENDAR
